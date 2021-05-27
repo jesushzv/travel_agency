@@ -1,0 +1,161 @@
+/* Global */
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Global end */
+
+/* Header */
+
+header {
+  padding: 8px;
+  background-color: rgb(68, 91, 94);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  display: inline-block;
+  width: 23%;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+
+header nav {
+  text-align: right;
+  display: inline-block;
+  width: 75%;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 3em;
+}
+
+header a:hover {
+  color: yellow;
+}
+
+.hero img {
+  height: 100%;
+  width: auto;
+}
+
+/* Header end */
+
+#inicio {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#inicio img {
+  width: 80% auto;
+  object-fit: fill;
+}
+
+/* Destinos */
+
+.destiny_section {
+  padding: 8px;
+}
+
+.destiny_section h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.destiny_section li {
+  text-align: center;
+  display: inline-grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 3em;
+}
+
+.destiny_section .descripcion {
+  display: inline-block;
+  justify-self: center;
+  align-self: center;
+}
+
+.destiny_section .descripcion h3 {
+  font-size: 2.5em;
+}
+
+.destiny_section .descripcion em {
+  font-size: 2em;
+}
+
+.destiny_section .imagen {
+  display: inline-block;
+  width: 100%;
+}
+
+.destiny_section .imagen img {
+  width: 66%;
+}
+
+/* Destinos end */
+
+/* Itinerary */
+
+.itinerary_section {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.itinerary_section h4{
+  font-size: 3em;
+
+}
+
+.itinerary_section img{
+  height: 50rem;
+  width: auto;
+}
+
+.itinerary_section .descripcion{
+  width: auto;
+  font-size: 2em;
+  
+  
+}
+
+
+/* Itinerary End */
+
+/* Whatsapp */
+
+.wa {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.wa img{
+  height: 110px;
+  width: 110px;
+}
+
+/* Whatsapp end */
